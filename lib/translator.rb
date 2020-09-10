@@ -17,20 +17,11 @@ end
 
 def get_english_meaning(yaml_file, emoticon)
   # code goes here
-  my = load_library(yaml_file)
-
-  english_meaning = ()
-    binding.pry
-#   english_meaning = my_hash[japanese][emoticon]
-
-  # puts english_meaning
-#   name = nil
-# binding.pry
-# library[emo].each do |k, v| #look in japanes to find value = to then return orig key
-#   binding.pry
-#   if k == emo
-#         name = v
-#       end
+  emoticons = load_library(yaml_file)
+emoticons[val].each do |japanese_emoticon, english_meaning |
+if emoticon == japanese_emoticon
+  return english_meaning
+  end
 #   if name == nil
 #       return "Sorry, that emoticon was not found"
 #     else
