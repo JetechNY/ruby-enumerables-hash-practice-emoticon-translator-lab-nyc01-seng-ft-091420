@@ -28,7 +28,7 @@ end
 
 def get_english_meaning(a ,emo)
   # code goes here
-  emo = YAML.load_library(a)
+  emo = YAML.load_file('./lib/emoticons.yml')
 
 
 end
