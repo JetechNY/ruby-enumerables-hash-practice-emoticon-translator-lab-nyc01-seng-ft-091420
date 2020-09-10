@@ -20,6 +20,7 @@ emoticons = load_library(yaml_file)
 emoticons.each do |english_meaning, emoarr |
 if emoticon == emoarr[:japanese]
   return english_meaning
+binding.pry
 else
   return "Sorry"
 binding.pry
