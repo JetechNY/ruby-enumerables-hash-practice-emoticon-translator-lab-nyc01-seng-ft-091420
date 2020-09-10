@@ -24,7 +24,7 @@ binding.pry
 return english_meaning
 binding.pry
   end
-return meaning
+
 #   if name == nil
 #       return "Sorry, that emoticon was not found"
 #     else
