@@ -13,7 +13,6 @@ emoticons.each do |key, value|
 
 end
 my_hash
-binding.pry
 end
 
 def get_english_meaning(yaml_file, emoticon)
