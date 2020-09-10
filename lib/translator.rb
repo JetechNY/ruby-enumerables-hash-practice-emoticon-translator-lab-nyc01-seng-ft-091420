@@ -33,18 +33,18 @@ end
 
 
 
-def get_japanese_emoticon(yaml_file ,emo)
-  # code goes here
-  library = load_library(yaml_file)
-  name = nil
-  library[val].each do |k, v|
-    if k == emo
-          name = v
-        end
-      end
-      if name == nil
-        return "Sorry, that emoticon was not found"
-      else
-        return name
-      end
-  end
+# def get_japanese_emoticon(yaml_file ,emo)
+#   # code goes here
+#   library = load_library(yaml_file)
+#   name = nil
+#   library[val].each do |k, v|
+#     if k == emo
+#           name = v
+#         end
+#       end
+#       if name == nil
+#         return "Sorry, that emoticon was not found"
+#       else
+#         return name
+#       end
+#   end
