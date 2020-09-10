@@ -29,7 +29,7 @@ if emoticon == japanese_emoticon
 #       return name
 #       end
 end
-
+end
 
 # def get_japanese_emoticon(yaml_file ,emo)
 #   # code goes here
