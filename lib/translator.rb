@@ -20,7 +20,7 @@ def get_english_meaning(yaml_file ,emoticon)
   emoticon_lib = load_library(yaml_file)
   english_meaning = emoticon_lib['get_meaning'][emoticon]
   name = nil
-# binding.pry
+binding.pry
 # library[emo].each do |k, v| #look in japanes to find value = to then return orig key
 #   binding.pry
 #   if k == emo
