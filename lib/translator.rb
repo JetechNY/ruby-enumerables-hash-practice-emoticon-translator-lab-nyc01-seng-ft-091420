@@ -31,7 +31,7 @@ library[val].each do |k, v|
     end
 end
 
-end
+
 
 def get_japanese_emoticon(yaml_file ,emo)
   # code goes here
