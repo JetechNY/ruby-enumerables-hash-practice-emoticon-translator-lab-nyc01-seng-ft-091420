@@ -6,9 +6,9 @@ require 'yaml'
 emoticons = YAML.load_file('./lib/emoticons.yml')
 my_hash = {}
 emoticons.each do |key, value|
-        eng = value[0]
-        jap = value[1]
-        val = {:english => eng , :japanese => jap}
+        english = value[0]
+        japanese = value[1]
+        val = {:english => english , :japanese => japanese}
         my_hash[key] = val
 
 end
