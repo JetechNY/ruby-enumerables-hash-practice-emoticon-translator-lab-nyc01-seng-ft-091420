@@ -20,7 +20,15 @@ def get_english_meaning(yaml_file ,emo)
 library = load_library(yaml_file)
 name = nil
 library[val].each do |k, v|
-
+  if k == emoticon
+        name = v
+      end
+    end
+    if name == nil
+      return "Sorry, that emoticon was not found"
+    else
+      return name
+    end
 end
 
 end
