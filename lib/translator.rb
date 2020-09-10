@@ -17,6 +17,7 @@ end
 
 def get_english_meaning(yaml_file ,emo)
   # code goes here
+  binding.pry
 library = load_library(yaml_file)
 name = nil
 library[val].each do |k, v|
