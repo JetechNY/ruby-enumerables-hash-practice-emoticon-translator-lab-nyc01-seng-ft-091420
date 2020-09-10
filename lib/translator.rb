@@ -18,12 +18,16 @@ end
 my_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(a ,emo)
   # code goes here
+  emoticons = YAML.load_file('./lib/emoticons.yml')
+
+
 
 end
 
 def get_english_meaning
   # code goes here
+  emoticons = YAML.load_file('./lib/emoticons.yml')
 
 end
