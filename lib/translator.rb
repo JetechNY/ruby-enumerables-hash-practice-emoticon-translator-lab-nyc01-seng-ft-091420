@@ -31,7 +31,7 @@ def get_english_meaning(yaml_file ,emoticon)
 #     else
 #       return name
 #       end
-# end
+end
 
 
 # def get_japanese_emoticon(yaml_file ,emo)
