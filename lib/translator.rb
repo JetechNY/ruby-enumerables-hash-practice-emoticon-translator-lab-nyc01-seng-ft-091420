@@ -17,7 +17,7 @@ end
 
 def get_english_meaning(yaml_file, emoticon)
   # code goes here
-  emoticon_lib = load_library(yaml_file)
+  my_hash = load_library(yaml_file)
   # english_meaning = emoticon_lib['japanese'][emoticon]
   # puts english_meaning
 #   name = nil
