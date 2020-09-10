@@ -23,8 +23,7 @@ library[val].each do |k, v|
   if k == emo
         name = v
       end
-    end
-    if name == nil
+  if name == nil
       return "Sorry, that emoticon was not found"
     else
       return name
