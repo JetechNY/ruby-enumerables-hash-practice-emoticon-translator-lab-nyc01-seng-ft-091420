@@ -18,9 +18,9 @@ end
 my_hash
 end
 
-def get_japanese_emoticon(a ,emo)
+def get_japanese_emoticon(yaml_file ,emo)
   # code goes here
-  a = YAML.load_file('./lib/emoticons.yml')
+library = load_library(yaml_file)
 
 
 
