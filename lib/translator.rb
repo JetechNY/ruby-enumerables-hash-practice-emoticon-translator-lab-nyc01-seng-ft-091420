@@ -20,6 +20,7 @@ end
 
 def get_japanese_emoticon(a ,emo)
   # code goes here
+  binding.pry
   emoticons = YAML.load_file('./lib/emoticons.yml')
 
 
