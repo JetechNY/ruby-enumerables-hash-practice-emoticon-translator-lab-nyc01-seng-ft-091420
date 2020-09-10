@@ -16,12 +16,12 @@ my_hash
 binding.pry
 end
 
-# def get_english_meaning(yaml_file, emoticon)
-#   # code goes here
-#   my_hash = load_library(yaml_file)
-#
-#   english_meaning = ()
-#     binding.pry
+def get_english_meaning(yaml_file, emoticon)
+  # code goes here
+  my_hash = load_library(yaml_file)
+
+  english_meaning = ()
+    binding.pry
 #   english_meaning = my_hash[japanese][emoticon]
 
   # puts english_meaning
@@ -37,7 +37,7 @@ end
 #     else
 #       return name
 #       end
-# end
+end
 
 
 # def get_japanese_emoticon(yaml_file ,emo)
