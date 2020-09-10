@@ -19,7 +19,7 @@ def get_english_meaning(yaml_file, emoticon)
 emoticons = load_library(yaml_file)
 emoticons.each do |english_meaning, emoarr |
 binding.pry
-if emoticon == emoarr
+if emoticon == emoarr.keys
   return english_meaning
   end
 #   if name == nil
