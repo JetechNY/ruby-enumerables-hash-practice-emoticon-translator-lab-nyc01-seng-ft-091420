@@ -19,17 +19,17 @@ def get_english_meaning(yaml_file ,emoticon)
   # code goes here
   emoticon_lib = load_library(yaml_file)
   english_meaning = emoticon_lib['get_meaning'][emoticon]
-name = nil
-binding.pry
-library[emo].each do |k, v| #look in japanes to find value = to then return orig key
-  binding.pry
-  if k == emo
-        name = v
-      end
-  if name == nil
-      return "Sorry, that emoticon was not found"
-    else
-      return name
+  name = nil
+# binding.pry
+# library[emo].each do |k, v| #look in japanes to find value = to then return orig key
+#   binding.pry
+#   if k == emo
+#         name = v
+#       end
+#   if name == nil
+#       return "Sorry, that emoticon was not found"
+#     else
+#       return name
 end
     end
 end
