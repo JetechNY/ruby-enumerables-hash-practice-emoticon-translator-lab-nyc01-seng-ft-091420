@@ -15,9 +15,9 @@ end
 my_hash
 end
 
-# def get_english_meaning(yaml_file ,emoticon)
-#   # code goes here
-#   emoticon_lib = load_library(yaml_file)
+def get_english_meaning(yaml_file ,emoticon)
+  # code goes here
+  emoticon_lib = load_library(yaml_file)
 #   english_meaning = emoticon_lib['get_meaning'][emoticon]
 #   name = nil
 # binding.pry
