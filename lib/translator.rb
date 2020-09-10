@@ -15,13 +15,13 @@ end
 my_hash
 end
 
-def get_english_meaning(yaml_file, emoticon)
-  # code goes here
-  my_hash = load_library(yaml_file)
-
-  english_meaning = ()
-    binding.pry
-  english_meaning = my_hash[japanese][emoticon]
+# def get_english_meaning(yaml_file, emoticon)
+#   # code goes here
+#   my_hash = load_library(yaml_file)
+# 
+#   english_meaning = ()
+#     binding.pry
+#   english_meaning = my_hash[japanese][emoticon]
 
   # puts english_meaning
 #   name = nil
