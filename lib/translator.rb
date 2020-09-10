@@ -22,12 +22,13 @@ if emoticon == emoarr['japanese']
 meaning = english_meaning
 binding.pry
   end
+return meaning
 #   if name == nil
 #       return "Sorry, that emoticon was not found"
 #     else
 #       return name
 #       end
-return meaning
+
 end
 
 
