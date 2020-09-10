@@ -21,9 +21,9 @@ emoticons.each do |english_meaning, emoarr |
 if emoticon == emoarr[:japanese]
   return english_meaning
 binding.pry
-else
-  return "Sorry"
-binding.pry
+# else
+#   return "Sorry"
+# binding.pry
 end
 
 #   if name == nil
