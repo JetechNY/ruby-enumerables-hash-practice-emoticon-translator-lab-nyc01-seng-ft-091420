@@ -19,7 +19,8 @@ def get_english_meaning(yaml_file ,emo)
   # code goes here
 library = load_library(yaml_file)
 name = nil
-library[emo].each do |k, v|
+binding.pry
+library[emo].each do |k, v| #look in japanes to find value = to then return orig key 
   binding.pry
   if k == emo
         name = v
