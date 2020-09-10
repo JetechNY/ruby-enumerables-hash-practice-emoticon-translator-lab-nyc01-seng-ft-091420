@@ -10,15 +10,14 @@ emoticons.each do |key, value|
         japanese = value[1]
         val = {:english => english , :japanese => japanese}
         my_hash[key] = val
-
 end
 my_hash
+
 end
 
 def get_english_meaning(yaml_file, emoticon)
-  # code goes here
-  emoticons = load_library(yaml_file)
-emoticons[val].each do |japanese_emoticon, english_meaning |
+emoticons = load_library(yaml_file)
+emoticons.each do |japanese_emoticon, english_meaning |
 if emoticon == japanese_emoticon
   return english_meaning
   end
