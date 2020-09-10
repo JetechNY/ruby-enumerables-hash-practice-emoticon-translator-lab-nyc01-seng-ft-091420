@@ -18,6 +18,7 @@ end
 def get_english_meaning(yaml_file, emoticon)
   # code goes here
   my_hash = load_library(yaml_file)
+  binding.pry
   # english_meaning = emoticon_lib['japanese'][emoticon]
   # puts english_meaning
 #   name = nil
