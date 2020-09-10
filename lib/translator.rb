@@ -13,8 +13,9 @@ emoticons.each do |key, value|
 
 end
 my_hash
-end
 binding.pry
+end
+
 # def get_english_meaning(yaml_file, emoticon)
 #   # code goes here
 #   my_hash = load_library(yaml_file)
