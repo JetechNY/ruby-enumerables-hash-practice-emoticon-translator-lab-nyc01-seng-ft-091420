@@ -45,12 +45,12 @@ def get_english_meaning(yaml_file, emoticon)
   else
     return response
   end
-end 
+end
 
 # require 'pry'
 # require 'yaml'
-# 
-# 
+#
+#
 #   def load_library (emoticon)
 # emoticons = YAML.load_file('./lib/emoticons.yml')
 # my_hash = {}
@@ -59,19 +59,19 @@ end
 #         japanese = value[1]
 #         val = {:english => english , :japanese => japanese}
 #         my_hash[key] = val
-# 
+#
 # end
 # my_hash
 # end
-# 
+#
 # def get_english_meaning(yaml_file, emoticon)
 #   # code goes here
 #   my_hash = load_library(yaml_file)
-# 
+#
 #   english_meaning = ()
 #     binding.pry
 #   english_meaning = my_hash[japanese][emoticon]
-# 
+#
 #   # puts english_meaning
 # #   name = nil
 # # binding.pry
@@ -86,8 +86,8 @@ end
 # #       return name
 # #       end
 # end
-# 
-# 
+#
+#
 # # def get_japanese_emoticon(yaml_file ,emo)
 # #   # code goes here
 # #   library = load_library(yaml_file)
