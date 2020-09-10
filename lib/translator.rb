@@ -27,6 +27,7 @@ library[val].each do |k, v|
       return "Sorry, that emoticon was not found"
     else
       return name
+end
     end
 end
 
