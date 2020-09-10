@@ -48,6 +48,3 @@ def get_japanese_emoticon(yaml_file ,emo)
         return name
       end
   end
-
-
-
